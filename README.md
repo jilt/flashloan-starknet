@@ -1,9 +1,11 @@
-# FlashLoan Starknet
+# Free FlashLoan Starknet
 
-Sample implementation of flashloans in cairo where anyone can deposit any ERC20 token in a pool and flash borrowers can borrow as long as they return the borrowed amount + fee by the end of the transaction.
+Based on the sample implementation of flashloans in cairo this update will implement a version without fees and a reentry basic protection based on the (balancer vault contract)[https://etherscan.io/address/0xba12222222228d8ba445958a75a0704d566bf2c8#code] on ethereum.
+
+In this contract anyone can deposit any ERC20 token in a pool and flash borrowers can borrow as long as they return the borrowed amount + fee by the end of the transaction.
 
 ## Spec
-Based on: https://eips.ethereum.org/EIPS/eip-3156
+Original repo was Based on: https://eips.ethereum.org/EIPS/eip-3156 New Update based on https://etherscan.io/address/0xba12222222228d8ba445958a75a0704d566bf2c8#code
 
 ---
 
