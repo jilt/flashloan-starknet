@@ -1,3 +1,20 @@
+# Free FlashLoan Starknet
+
+Based on the sample implementation of flashloans in cairo I will implement a version without fees and a reentry basic protection based on the (balancer vault contract)[https://etherscan.io/address/0xba12222222228d8ba445958a75a0704d566bf2c8#code] on ethereum.
+
+In this contract anyone can deposit any ERC20 token in a pool and flash borrowers can borrow as long as they return the borrowed amount + fee by the end of the transaction.
+
+## Spec
+Original repo was Based on: https://eips.ethereum.org/EIPS/eip-3156 New version based on https://etherscan.io/address/0xba12222222228d8ba445958a75a0704d566bf2c8#code
+
+## UX
+
+## Starknet-react
+React Boilerplate for Starkenet Smart contract UIs
+[Docs](https://starknet-react.com/docs/getting-started) 
+
+### Dashboard
+
 [![Cover Image](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/CRM/crm-readme-temp.png "Cover Image")](https://github.com/refinedev/refine)
 
 <div align="center">
